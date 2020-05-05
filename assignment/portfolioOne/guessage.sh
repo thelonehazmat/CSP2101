@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Name: Brandon Royce
-#Student Number: Brandon Royce
+#Student Number: 1047905
+#Unit: CSP2101
 
 #Colours
 Clear='\033[0m'
