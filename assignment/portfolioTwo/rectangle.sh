@@ -12,9 +12,9 @@ sed -e '1d' \
 -e 's/,[0-9]/\tHeight: &/1' \
 -e 's/,[0-9]/\tWidth: &/2' \
 -e 's/,[0-9]/\tArea: &/3' \
--e 's/,[A-Z][a-z]*\+/\tColour: &/' \
+-e 's/,[A-Z][a-z]\+/\tColour: &/' \
 -e 's/,//g' $initialFile > $outputFile #Saves results
 
-echo -e "Results succesfully stored in $outputFile\n"
+echo -e "Results successfully stored in $outputFile\n"
 
 exit 0
